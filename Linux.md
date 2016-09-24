@@ -1,0 +1,19 @@
+- pipes
+  - prog1 |(pipe character) prog2:
+    - pipe takes the output of program 1 into the input of program 2
+  - echo "hello world", different types of input and output
+    - standard input —> 0
+    - standard output —> 1
+    - error output—>2 
+  - output overwrites the old information if you use >
+  - one way to avoid this is to use >>
+  - redirect the standard output and append it  t o a file 2>>
+- bash programming
+  - to reuse some bash commands
+  - $ var
+  - count the number of directories num_dir=`ls $HOME | wc -l' echo $num_dir
+  - which bash: link to the bash 
+  - file ending does not have real meaning in linux system
+  - chmod +x HelloWorld.sh to add the excution mode for tthe ile
+  - other ways to run the code: bash source-> put varibale name in hte namespace . HelloWorld.sh this is the same as source
+  - ​

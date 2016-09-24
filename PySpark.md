@@ -1,0 +1,11 @@
+- API in Scala, java, python
+- Spark streaming, MLIB machine learning, GraphX graph processing, 
+- Spark core-> computation engine-> monitoring many 
+- Spark offers functional programming API to manipulate ==Resilient Distributed Datasets== (RDDs)
+- RDD
+  - logical plan to compute a dateset
+  - fault-tolerant
+  - two types of operations:
+    - transformation-> construct a new RDD from one or more previous ones
+    - Actions-> compute a result based on an RDD and return to the driver or storage
+  - linearage graph
